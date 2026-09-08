@@ -8,7 +8,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy backend source code
 COPY backend/main.py .
-COPY backend/.env.example .env
 
 EXPOSE 8000
 
